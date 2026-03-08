@@ -52,11 +52,11 @@ export default function App() {
           <a href="https://github.com/raunaq-kapoor" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="GitHub">
             <GithubIcon />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/raunaq-kapoor/" target="_blank" rel="noopener noreferrer" className="icon-link" aria-label="LinkedIn">
             <LinkedinIcon />
           </a>
-          <a href="#newsletter" className="nav-link">Newsletter</a>
-          <a href="#" className="btn-resume">Resume</a>
+          <a href="https://raunaq-newsletter.beehiiv.com/" target="_blank" rel="noopener noreferrer" className="nav-link">Newsletter</a>
+          <a href="/RaunaqKapoor_resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-resume">Resume</a>
         </nav>
       </header>
 
@@ -85,10 +85,7 @@ export default function App() {
             <h2 className="section-title">ABOUT</h2>
             <div className="section-body">
               <p>
-                With over 8 years in the digital space, I've worn many hats: from full-stack developer to lead product designer. My philosophy is simple: technology should be invisible. I strive to create experiences where the user achieves their goal without ever noticing the "interface."
-              </p>
-              <p>
-                When I'm not pushing pixels or refactoring React components, you'll find me exploring the intersection of AI and human creativity. I believe the next decade of software will be defined by how well we integrate agentic workflows into our daily habits.
+                Hello! I’m a Technology enthusiast and work as a product leader. I like to build tech solutions to make everyday things easier. I also like to follow world finance and I am a bulish investor. im currently exploring various AI tools and working on a tool that helps me make better euiuty investment decisions.
               </p>
             </div>
           </section>
@@ -148,8 +145,8 @@ export default function App() {
       <footer className="footer">
         <span>© 2024 Raunaq Kapoor. Built with <a href="#" className="footer-link">intention.</a></span>
         <nav className="footer-nav">
-          <a href="#newsletter">Newsletter</a>
-          <a href="#">Resume</a>
+          <a href="https://raunaq-newsletter.beehiiv.com/" target="_blank" rel="noopener noreferrer">Newsletter</a>
+          <a href="/RaunaqKapoor_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
           <a href="#">Privacy</a>
         </nav>
       </footer>
