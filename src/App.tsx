@@ -85,7 +85,7 @@ export default function App() {
             <h2 className="section-title">ABOUT</h2>
             <div className="section-body">
               <p>
-                Hello! I’m a Technology enthusiast and work as a product leader. I like to build tech solutions to make everyday things easier. I also like to follow world finance and I am a bulish investor. im currently exploring various AI tools and working on a tool that helps me make better euiuty investment decisions.
+                Hello! I’m a Technology enthusiast and work as a product leader. I like to build tech solutions to make everyday things easier. I also like to follow world finance and I am a bullish investor. I’m currently exploring various AI tools and working on a tool that helps me make better equity investment decisions.
               </p>
             </div>
           </section>
@@ -143,7 +143,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <span>© 2024 Raunaq Kapoor. Built with <a href="#" className="footer-link">intention.</a></span>
+        <span>© {new Date().getFullYear()} Raunaq Kapoor. Built with <a href="#" className="footer-link">intention.</a></span>
         <nav className="footer-nav">
           <a href="https://raunaq-newsletter.beehiiv.com/" target="_blank" rel="noopener noreferrer">Newsletter</a>
           <a href="/RaunaqKapoor_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
