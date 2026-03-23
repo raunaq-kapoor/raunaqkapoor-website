@@ -12,28 +12,6 @@ const LinkedinIcon = () => (
   </svg>
 )
 
-const experience = [
-  {
-    role: 'Senior Product Designer',
-    company: 'Vertex Systems',
-    period: '2021 — Present',
-    bullets: [
-      'Led the redesign of the core enterprise dashboard, increasing user retention by 24%.',
-      'Architected a comprehensive design system used by 3 separate product teams.',
-      'Mentored junior designers and established weekly design critique sessions.',
-    ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Nova Interactive',
-    period: '2018 — 2021',
-    bullets: [
-      'Developed high-performance React applications for Series A startups.',
-      'Optimized database queries reducing API latency by 40%.',
-      'Collaborated closely with stakeholders to translate business needs into technical specs.',
-    ],
-  },
-]
 
 const stack = [
   { category: 'DESIGN', items: ['Figma', 'Adobe Suite', 'Framer'] },
@@ -93,21 +71,13 @@ export default function App() {
           {/* Experience */}
           <section id="experience" className="section">
             <h2 className="section-title">EXPERIENCE</h2>
-            <div className="section-body experience-list">
-              {experience.map((job, i) => (
-                <div key={i} className="job-entry">
-                  <div className="job-header">
-                    <span className="job-role">{job.role}</span>
-                    <span className="job-period">{job.period}</span>
-                  </div>
-                  <p className="job-company">{job.company}</p>
-                  <ul className="job-bullets">
-                    {job.bullets.map((b, bi) => (
-                      <li key={bi}>{b}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+            <div className="section-body">
+              <p>
+                I currently work in Product at eBay, leading the Authenticity Guarantee program across luxury goods, sneakers, handbags, and collectibles. My work sits at the intersection of marketplace growth, buyer trust, seller experience, and operational execution — which means working across engineering, operations, and business teams to solve both strategic and systems-level problems. I've led work ranging from scaling authentication into new categories and geographies, to building pre-authentication and consignment flows, to driving AI-assisted automation and fulfillment tooling that improved speed, cost, and delivery outcomes. The decisions I make are usually tradeoffs across trust, GMV growth, operational efficiency, and long-term platform scalability.
+              </p>
+              <p>
+                Previously, I worked at Amazon improving post-order customer experience for the India market. I started my career in analytics at Mu Sigma, where I got my first exposure to e-commerce working with Walmart.com.
+              </p>
             </div>
           </section>
 
